@@ -17,5 +17,10 @@
     "concurrently": "3.5.1",
     "micro-proxy": "^1.0.0"
   },
-  "workspaces": ["*"]
+  "workspaces": [
+    "shared",
+    "design",
+    "blog",
+    "home"
+  ]
 }

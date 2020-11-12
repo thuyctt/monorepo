@@ -1,5 +1,7 @@
 import Link from 'next/link'
-import Header from '../../components/Header'
+// import Header from '@acme/shared/Header'
+import Header from '@acme/design/Header'
+// import { Header } from 'shared/Header'
 
 export default function Home() {
   return (
