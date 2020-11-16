@@ -1,0 +1,14 @@
+{
+  "github": {
+    "enabled": true
+  },
+  "regions": ["hnd1"],
+  "builds": [
+    { "src": "home/package.json", "use": "@vercel/next" }
+  ],
+  "routes": [
+    { "src": "(.*)", "dest": "home$1" }
+  ],
+  "scope": "Nguyen Thanh Thuy",
+  "version": 2
+}

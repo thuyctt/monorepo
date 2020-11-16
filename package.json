@@ -10,7 +10,7 @@
     "home-build": "next build home",
     "home-start": "next start home -p 4000",
     "proxy": "micro-proxy -r rules-dev.json",
-    "build": "cd components && yarn build",
+    "build": "cd home && yarn build",
     "dev": "concurrently 'yarn blog' 'yarn home' 'yarn proxy'"
   },
   "dependencies": {
