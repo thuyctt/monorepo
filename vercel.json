@@ -3,8 +3,7 @@
     "enabled": true
   },
   "builds": [
-    { "src": "home/package.json", "use": "@vercel/next" },
-    { "src": "blog/package.json", "use": "@vercel/next" }
+    { "src": "home/package.json", "use": "@vercel/next" }
   ],
   "routes": [
     { "src": "(.*)", "dest": "home$1" }
