@@ -4,9 +4,7 @@
   },
   "builds": [
     { "src": "home/package.json", "use": "@vercel/next" },
-    { "src": "blog/package.json", "use": "@vercel/next" },
-    { "src": "design/package.json", "use": "@vercel/node" },
-    { "src": "shared/package.json", "use": "@vercel/node" }
+    { "src": "blog/package.json", "use": "@vercel/next" }
   ],
   "routes": [
     { "src": "(.*)", "dest": "home$1" }
