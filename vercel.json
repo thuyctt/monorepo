@@ -1,6 +1,6 @@
 {
   "github": {
-    "enabled": true
+    "enabled": false
   },
   "regions": ["hnd1"],
   "builds": [
