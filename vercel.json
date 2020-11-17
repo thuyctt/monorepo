@@ -8,6 +8,9 @@
   "routes": [
     { "src": "(.*)", "dest": "home$1" }
   ],
+  "redirects": [
+    { "source": "/sell/(?!sp_game|pc_game/?)(.*)", "destination": "https://monorepo-blog-l653262q5.vercel.app/$1" }
+  ],
   "scope": "Nguyen Thanh Thuy",
   "version": 2
 }
