@@ -3,8 +3,5 @@
     "enabled": true
   },
   "scope": "Nguyen Thanh Thuy",
-  "redirects": [
-    { "source": "/sell/(?!.*(sp_game|pc_game))(.*)", "destination": "https://monorepo-blog-l653262q5.vercel.app/$1" }
-  ],
   "version": 2
 }
