@@ -5,11 +5,12 @@
   "builds": [
     { "src": "home/package.json", "use": "@vercel/next" }
   ],
+  "redirects": [
+    { "source": "/sell/(?!sp_game)(.*)", "destination": "https://monorepo-blog-l653262q5.vercel.app/$1" },
+    { "source": "/sell(.*)", "destination": "https://monorepo-blog-l653262q5.vercel.app/$1" }
+  ],
   "routes": [
     { "src": "(.*)", "dest": "home$1" }
-  ],
-  "redirects": [
-    { "source": "/sell/(?!sp_game)(.*)", "destination": "https://monorepo-blog-l653262q5.vercel.app/$1" }
   ],
   "scope": "Nguyen Thanh Thuy",
   "version": 2
