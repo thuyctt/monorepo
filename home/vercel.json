@@ -2,6 +2,13 @@
   "github": {
     "enabled": true
   },
+  "routes": [
+    {
+      "src": "/static/(.*)",
+      "headers": { "cache-control": "s-maxage=604800" },
+      "dest": "/static/$1"
+    }
+  ],
   "scope": "Nguyen Thanh Thuy",
   "version": 2
 }
