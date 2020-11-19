@@ -2,12 +2,16 @@
   "github": {
     "enabled": true
   },
-  "routes": [
+  "headers": [
     {
-      "src": "/static/(.*)",
-      "headers": { "Cache-Control": "s-maxage=604800" },
-      "dest": "/static/$1"
-    }
+      "source": "/static/(.*)",
+      "headers" : [
+        {
+          "key" : "Cache-Control",
+          "value" : "public, max-age=3600"
+        }
+      ]
+    },
   ],
   "scope": "Nguyen Thanh Thuy",
   "version": 2
