@@ -5,7 +5,7 @@
   "routes": [
     {
       "src": "/static/(.*)",
-      "headers": { "cache-control": "s-maxage=604800" },
+      "headers": { "Cache-Control": "s-maxage=604800" },
       "dest": "/static/$1"
     }
   ],
