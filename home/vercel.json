@@ -11,7 +11,7 @@
           "value" : "public, max-age=3600"
         }
       ]
-    },
+    }
   ],
   "scope": "Nguyen Thanh Thuy",
   "version": 2
